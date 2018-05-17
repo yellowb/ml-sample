@@ -39,3 +39,4 @@ def show(name, age=18, **kwargs):
 
 person_info = {'address': 'USA', 'salary': 10000}
 show('Tom', **person_info)
+show('Mary')

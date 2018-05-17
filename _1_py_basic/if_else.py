@@ -7,5 +7,3 @@ elif x < 20:
     print('5 < x < 20')
 else:
     print(' 20 < x')
-
-

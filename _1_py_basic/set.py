@@ -21,5 +21,3 @@ print(s2.difference(s))
 print(s2 - s)  # shortcut
 print(s2.union(s))
 print(s2 | s)  # shortcut
-
-

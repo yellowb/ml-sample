@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # char to int
 c1 = '中'
 print(ord(c1))

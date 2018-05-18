@@ -13,6 +13,7 @@ def power(x, y=1):
             count = count - 1
         return result
 
+
 print(power(2, 10))
 print(power(2, 0))
 print(power(2, y=1))
@@ -26,6 +27,7 @@ def cal_sum(*numbers):
         sum = i + sum
     return sum
 
+
 numbers = (1, 2, 3, 4, 5)
 print(cal_sum(*numbers))
 
@@ -33,9 +35,10 @@ print(cal_sum(*numbers))
 # named parameters
 def show(name, age=18, **kwargs):
     print('name = ', name, ', age = ', age)
-    if not kwargs is None:
+    if kwargs is not None:
         for key in kwargs:
             print(key, ' = ', kwargs[key])
+
 
 person_info = {'address': 'USA', 'salary': 10000}
 show('Tom', **person_info)

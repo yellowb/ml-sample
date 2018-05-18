@@ -28,13 +28,12 @@ for i in range(10):
 
 # how to check an object can be iterated
 from collections import Iterable
+
 print(isinstance(T, Iterable))
 print(isinstance(D, Iterable))
 print(isinstance(range(10), Iterable))
 print(isinstance('abc', Iterable))
 
-
 # iterate list with index and element
 for idx, el in enumerate(['A', 'B', 'C']):
     print(idx, ' -> ', el)
-

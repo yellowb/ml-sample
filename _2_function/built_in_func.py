@@ -6,6 +6,7 @@ print(abs(-1))
 print(list((1, 2, 3)))
 print(list({1, 2, 3}))
 print(list({'a': 1, 'b': 2}))
+print(list(range(100)))
 
 # data type of an object
 print(type({1, 2, 3}))

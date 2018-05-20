@@ -1,6 +1,6 @@
 import time as time
 
-# #2 & #3 are fast, #1 is slow
+# #2 & #3 are fast , #1 is slow
 
 amount = 1000 * 1000 * 200
 

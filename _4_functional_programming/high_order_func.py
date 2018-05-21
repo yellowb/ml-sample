@@ -11,3 +11,4 @@ def high_order(x, y, func):
 
 
 print(high_order(3, 4, square))
+

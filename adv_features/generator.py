@@ -31,4 +31,29 @@ for x in fib(10):
 fib_list = list(fib(10))  # create a list using generator
 print(fib_list)
 
+# Yang Hui Triangle
+print('Yang Hui Triangle')
+def yh_triangle(max):
+    n = 1
+    lv_current = [1]
+    while n <= max:
+        if n == 1:
+            yield lv_current
+        elif n >= 2:
+            lv_next = [0 for x in range(n)]  # generate a list of zero
+            for idx in range(n):
+                if idx == 0 or idx == n - 1:
+                    lv_next[idx] = 1
+                else:
+                    lv_next[idx] = lv_current[idx] + lv_current[idx - 1]
+            lv_current = lv_next
+            yield lv_current
+        else:
+            yield []
+        n = n + 1
+
+for lv in yh_triangle(10):
+    print(lv)
+
+
 

@@ -18,4 +18,6 @@ tom = Student('Ken', 18, 'IT')
 tom.set_age(100)
 tom.speak()
 
+print(tom.get_species())
+print(Student.get_species())
 

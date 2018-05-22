@@ -17,8 +17,13 @@ print(isinstance(Human.speak, types.FunctionType))
 print(isinstance(lambda x: x + 1, types.LambdaType))
 print(isinstance((x for x in range(10)), types.GeneratorType))
 print(isinstance([x for x in range(10)], list))
+print(isinstance([1, 2, 3], (list, tuple)))
 
 # user defined class
 tom = Student('tom', 100, 'IT')
 print(isinstance(tom, Human))  # True
+
+# list all attr of an object
+print(dir(tom))
+
 

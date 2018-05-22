@@ -2,6 +2,8 @@
 
 class Human(object):
 
+    species = 'Human'  # class level
+
     def __init__(self, name, age):
         self.__name = name
         self.__age = age
@@ -14,3 +16,8 @@ class Human(object):
 
     def set_age(self, age):
         self.__age = age
+
+    # class level function
+    @staticmethod
+    def get_species():
+        return Human.species

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-class Human(object):
+class Human:
 
     species = 'Human'  # class level
 

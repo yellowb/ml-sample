@@ -28,8 +28,7 @@ def cal_sum(*numbers):
     return sum
 
 
-numbers = (1, 2, 3, 4, 5)
-print(cal_sum(*numbers))
+print(cal_sum(1, 2, 3, 4, 5))
 
 
 # named parameters
@@ -41,5 +40,5 @@ def show(name, age=18, **kwargs):
 
 
 person_info = {'address': 'USA', 'salary': 10000}
-show('Tom', **person_info)
+show('Tom', 10, address='USA', salary=1000)
 show('Mary')

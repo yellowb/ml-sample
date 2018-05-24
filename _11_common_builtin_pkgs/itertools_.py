@@ -20,3 +20,7 @@ for x in cycle:
 groups = itertools.groupby('AAaaabBbCCcccC', key=lambda c: c.upper())
 for k, v in groups:
     print(k, list(v))
+
+# filter
+odds = itertools.filterfalse(lambda x: x % 2 == 0, list(range(10)))
+print(list(odds))

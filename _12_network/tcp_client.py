@@ -2,7 +2,6 @@ import socket, time
 
 """Sample of TCP client"""
 
-
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 print('[Client] Try to connect to server.')
@@ -21,5 +20,3 @@ for name in ['Tom', 'Ken', 'Mary']:
 
 print('[Client] Disconnect from server.')
 s.send('exit'.encode('UTF-8'))
-
-

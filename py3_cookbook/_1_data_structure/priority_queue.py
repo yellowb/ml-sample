@@ -1,5 +1,7 @@
 import heapq
 
+""" self encapsulated priority queue """
+
 
 class PriorityQueue:
     def __init__(self):

@@ -10,3 +10,5 @@ print(name, age, weight, year, month, day)
 name, age, _, _ = ['ACME', 50, 91.1, (2012, 12, 21)]
 print(name, age)
 
+# will throw error if the amount of arguments not match
+name, age = ['ACME', 50, 91.1, (2012, 12, 21)]

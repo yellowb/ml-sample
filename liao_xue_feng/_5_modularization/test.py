@@ -2,6 +2,6 @@
 # test importing my module
 
 
-from _5_modularization.yellowb.util import calculate
+from liao_xue_feng._5_modularization.yellowb.util import calculate
 
 print(calculate(2, 3))

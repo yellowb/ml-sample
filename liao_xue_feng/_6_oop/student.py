@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from _6_oop.human import Human
+from liao_xue_feng._6_oop.human import Human
 
 
 class Student(Human):

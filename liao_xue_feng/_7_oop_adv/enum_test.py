@@ -1,6 +1,6 @@
 # test the usage of enum
 
-from _7_oop_adv.weekday import Weekday
+from liao_xue_feng._7_oop_adv.weekday import Weekday
 
 print(Weekday.Mon)
 print(Weekday(1))

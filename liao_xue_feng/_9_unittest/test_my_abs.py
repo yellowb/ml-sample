@@ -3,7 +3,7 @@
 
 import unittest
 
-from _9_unittest.my_abs import my_abs
+from liao_xue_feng._9_unittest.my_abs import my_abs
 
 
 class TestMyAbs(unittest.TestCase):

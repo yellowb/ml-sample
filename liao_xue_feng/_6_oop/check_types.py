@@ -1,6 +1,6 @@
 import types
-from _6_oop.human import Human
-from _6_oop.student import Student
+from liao_xue_feng._6_oop.human import Human
+from liao_xue_feng._6_oop.student import Student
 
 # simple types
 print(isinstance(123, int))

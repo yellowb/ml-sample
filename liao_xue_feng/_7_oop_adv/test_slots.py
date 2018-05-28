@@ -1,4 +1,4 @@
-from _7_oop_adv.human import Human
+from liao_xue_feng._7_oop_adv.human import Human
 
 tom = Human('tom', 18)
 tom.height = 180

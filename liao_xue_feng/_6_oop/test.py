@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from _6_oop.human import Human
-from _6_oop.student import Student
+from liao_xue_feng._6_oop.human import Human
+from liao_xue_feng._6_oop.student import Student
 
 tom = Human('Tom', 18)
 tom.speak()

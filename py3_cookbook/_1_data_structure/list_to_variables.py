@@ -10,13 +10,9 @@ print(name, age, weight, year, month, day)
 name, age, _, _ = ['ACME', 50, 91.1, (2012, 12, 21)]
 print(name, age)
 
-# another form to ignore multiple
+# another form to ignore multiple, ONLY one starred expression is allowed in assignment
 name, age, *_ = ['ACME', 50, 91.1, (2012, 12, 21)]
 print(name, age)
 
 # !!!!! will throw error if the amount of arguments not match !!!!!
 name, age = ['ACME', 50, 91.1, (2012, 12, 21)]
-
-
-
-

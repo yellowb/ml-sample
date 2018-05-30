@@ -8,22 +8,28 @@ for n in g1:
 
 # another form of g1
 print('another form of g1')
+
+
 def g2(start, stop):
     while start < stop:
         yield start * start
         start = start + 1
+
 
 for n in g2(1, 11):
     print(n)
 
 # Fibonacci generator
 print('Fibonacci generator')
+
+
 def fib(max):
     n, a, b = 0, 0, 1
     while n < max:
         yield b
         a, b = b, a + b
         n = n + 1
+
 
 for x in fib(10):
     print(x)
@@ -33,6 +39,8 @@ print(fib_list)
 
 # Yang Hui Triangle
 print('Yang Hui Triangle')
+
+
 def yh_triangle(max):
     n = 1
     lv_current = [1]
@@ -52,8 +60,6 @@ def yh_triangle(max):
             yield []
         n = n + 1
 
+
 for lv in yh_triangle(10):
     print(lv)
-
-
-
